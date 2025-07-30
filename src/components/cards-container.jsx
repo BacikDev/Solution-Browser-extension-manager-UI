@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Card } from "./card"
-import data from '../../data.json'
+import data from '../data.json'
 
 export const CardsContainer = ({filter}) => {
   const [extensions, setExtensions] = useState(data)
