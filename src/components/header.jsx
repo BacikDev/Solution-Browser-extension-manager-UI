@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Logo from '../assets/images/logo.svg'
-import LogoDark from '../assets/images/logoDark.svg'
-import IconSun from '../assets/images/icon-sun.svg'
-import IconMoon from '../assets/images/icon-moon.svg'
+import Logo from '../../public/assets/images/logo.svg'
+import LogoDark from '../../public/assets/images/logoDark.svg'
+import IconSun from '../../public/assets/images/icon-sun.svg'
+import IconMoon from '../../public/assets/images/icon-moon.svg'
 
 export const Header = () => {
   const savedTheme = localStorage.getItem('dark');
